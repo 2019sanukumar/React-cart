@@ -65,15 +65,19 @@ class CartItem extends React.Component{
                             src="https://as1.ftcdn.net/jpg/01/07/57/90/500_F_107579053_aCv8Ox7e1klnqcNuJC8cmM18aMHNdvC4.jpg"
                             onClick={this.decreaseQuantity.bind(this)}
                             
-                            />
+                        />
                         <img 
                             alt="increase" 
                             className="action-icons" 
                             src="https://as1.ftcdn.net/jpg/03/04/05/10/500_F_304051050_QNAQbFIKZk1eLLNuSmbyAtCvg91xnUv4.jpg"
                             onClick={this.increaseQuantity.bind(this)}
                             
-                            />
-                        <img alt="delete" className="action-icons" src="https://as2.ftcdn.net/jpg/01/35/16/95/500_F_135169507_hEcszwyhduwTMGpDkNluLNm3IwLDl0BJ.jpg"/>
+                        />
+                        <img 
+                            alt="delete" 
+                            className="action-icons" 
+                            src="https://as2.ftcdn.net/jpg/01/35/16/95/500_F_135169507_hEcszwyhduwTMGpDkNluLNm3IwLDl0BJ.jpg"
+                        />
 
                     </div>
 
